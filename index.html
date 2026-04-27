@@ -593,9 +593,9 @@
             <a href="#page1">Map</a>
             <a href="#page2">Cumulative metrics</a>
             <a href="#page3">Project insight</a>
-            <a href="#page4">Assumptions</a>
-            <a href="#page5">Definition</a>
-            <a href="#page6">Status details</a>
+            <a href="#page4">Detailed table</a>
+            <a href="#page5">Assumptions</a>
+            <a href="#page6">Definition</a>
             <a href="#page1" class="primary-pill">Start exploring</a>
         </div>
     </nav>
@@ -620,9 +620,9 @@
                     <a href="#page1" class="btn btn-primary">Map of E-Fuel Projects</a>
                     <a href="#page2" class="btn btn-ghost">Cumulative metrics</a>
                     <a href="#page3" class="btn btn-ghost">Project insight</a>
-                    <a href="#page4" class="btn btn-ghost">Assumptions</a>
-                    <a href="#page5" class="btn btn-ghost">Definition</a>
-                    <a href="#page6" class="btn btn-ghost">Status details</a>
+                    <a href="#page4" class="btn btn-ghost">Detailed table</a>
+                    <a href="#page5" class="btn btn-ghost">Assumptions</a>
+                    <a href="#page6" class="btn btn-ghost">Definition</a>
                 </div>
             </div>
 
@@ -658,7 +658,7 @@
         <div class="pager">
             <span>Scroll or use arrows</span>
             <a href="#page1">
-                Next: Map of projects
+                Next: Map of Projects
                 <span class="arrow">↓</span>
             </a>
         </div>
@@ -725,7 +725,7 @@
                 Back to overview
             </a>
             <a href="#page2">
-                Next: Cumulative metrics
+                Next: Cumulative Metrics
                 <span class="arrow">↓</span>
             </a>
         </div>
@@ -796,10 +796,10 @@
         <div class="pager">
             <a href="#page1">
                 <span class="arrow">↑</span>
-                Previous: Map of projects
+                Previous: Map of Projects
             </a>
             <a href="#page3">
-                Next: Project insight
+                Next: Project Insight
                 <span class="arrow">↓</span>
             </a>
         </div>
@@ -872,9 +872,71 @@
         <div class="pager">
             <a href="#page2">
                 <span class="arrow">↑</span>
-                Previous: Cumulative metrics
+                Previous: Cumulative Metrics
             </a>
             <a href="#page4">
+                Next: Detailed Table
+                <span class="arrow">↓</span>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- PAGE 4 : DETAILED TABLE -->
+<section id="page4" class="screen">
+    <div class="content">
+        <div class="section-header">
+            <div>
+                <div class="section-kicker">Page 4</div>
+                <div class="section-title">Detailed Table</div>
+            </div>
+            <div class="section-tag">
+                View and export the detailed list of projects filtered from the Map of E-Fuel Projects page.
+            </div>
+        </div>
+
+        <div class="section-grid">
+            <article class="card">
+                <h3>What you see</h3>
+                <p>
+                    This page displays a detailed table containing the projects selected through the filters applied on the Map of E-Fuel Projects page.
+                    It provides access to the main project-level information available in the database, such as project name, scale, status, region,
+                    country, coordinates, companies, technologies, production capacities, CO₂ source, and related references.
+                </p>
+
+                <div class="pill-section-title">
+                    <span class="pill-dot"></span>
+                    How to use this page
+                </div>
+                <ul>
+                    <li>Apply the desired filters on the Map of E-Fuel Projects page.</li>
+                    <li>Open the Detailed Table page to display the corresponding filtered list of projects.</li>
+                    <li>Scroll horizontally and vertically to explore all available columns and projects.</li>
+                    <li>To export the data, click on the table, then use the top-right menu (…) and select <strong>Export data</strong>.</li>
+                    <li>The filtered table can then be exported as a CSV file.</li>
+                </ul>
+
+                <div class="note">
+                    <div class="note-title">Note</div>
+                    <p>
+                        Only the projects matching the active filters are displayed and exported.
+                        This page is intended to make the filtered project database easier to inspect,
+                        compare, and reuse outside Power BI.
+                    </p>
+                </div>
+            </article>
+
+            <aside class="fake-chart" aria-hidden="true">
+                <img src="image/Detailed Table.png" alt="Power BI page: Detailed Table" class="report-image" />
+            </aside>
+        </div>
+
+        <div class="pager">
+            <a href="#page3">
+                <span class="arrow">↑</span>
+                Previous: Project insight
+            </a>
+            <a href="#page5">
                 Next: Assumptions
                 <span class="arrow">↓</span>
             </a>
@@ -882,12 +944,12 @@
     </div>
 </section>
 
-<!-- PAGE 4 -->
-<section id="page4" class="screen">
+<!-- PAGE 5 -->
+<section id="page5" class="screen">
     <div class="content">
         <div class="section-header">
             <div>
-                <div class="section-kicker">Page 4</div>
+                <div class="section-kicker">Page 5</div>
                 <div class="section-title">Assumptions and Estimation Methodology</div>
             </div>
             <div class="section-tag">
@@ -971,25 +1033,25 @@
         </div>
 
         <div class="pager">
-            <a href="#page3">
+            <a href="#page4">
                 <span class="arrow">↑</span>
-                Previous: Project insight
+                Previous: Detailed table
             </a>
-            <a href="#page5">
-                Next: Definition
+            <a href="#page6">
+                Next: Definitions
                 <span class="arrow">↓</span>
             </a>
         </div>
     </div>
 </section>
 
-<!-- PAGE 5 -->
-<section id="page5" class="screen">
+<!-- PAGE 6 -->
+<section id="page6" class="screen">
     <div class="content">
         <div class="section-header">
             <div>
-                <div class="section-kicker">Page 5</div>
-                <div class="section-title">Definition</div>
+                <div class="section-kicker">Page 6</div>
+                <div class="section-title">Definitions</div>
             </div>
             <div class="section-tag">
                 Review the definitions used across the dashboard for status, scale, position, electrolyser technology and CO₂ source.
@@ -1063,14 +1125,11 @@
         </div>
 
         <div class="pager">
-            <a href="#page4">
+            <a href="#page5">
                 <span class="arrow">↑</span>
                 Previous: Assumptions
             </a>
-            <a href="#page6">
-                Next: Status details
-                <span class="arrow">↓</span>
-            </a>
+           
         </div>
     </div>
 </section>
